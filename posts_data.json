@@ -78,6 +78,25 @@
       ]
     ],
     "28-10-2023",
-    ["all", "webdev"]
+    ["all", "programming", "webdev"]
+  ],
+  [
+    3,
+    "Devlog: 1 - Massive Recoil",
+    "./images/ryoko.webp",
+    [
+      ["h3", "Introduction"],
+      [
+        "p",
+        "This is my lifelong project, I did not remember when I started working on this but it has been a few years ago. I work on this game whenever I can, most of the time I spend my time drawing the assets. Drawing for me takes a lot of stamina and I feel burnt out afterwards. I plan on making everything in this game by myself so it's going to be slow but I'll keep at it. So the game is called Massive Recoil, I have not thought of the plot or what its about but basically you play as Ryoko, the girl on this post featured image. She works for a company as a mercenary where she goes around doing missions. But the overall gameplay is going to be similar to Resident Evil 4, the main selling point of this game is that aiming is very important and each enemies are going to have their own weak points you have to shoot. But they all have their own unique sequence of weak points that you have to shoot to defeat them. This applies for all sorts of enemies. The featured image of this post is made by AI too. But all my sprites are hand drawn."
+      ],
+      [
+        "p",
+        "For this first post I am going to talk about the art direction on how I designed the main character ryoko, also some of the sprite works. So her design is heavily inspired by Rock Howard"
+      ],
+      ["img", "./images/ryoko_idle.webp"]
+    ],
+    "28-10-2023",
+    ["all", "art", "gamedev"]
   ]
 ]
