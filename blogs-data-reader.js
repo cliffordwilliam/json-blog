@@ -77,6 +77,7 @@ function exitReadingState() {
   PAGE_NUMBER_DOM.classList.remove("hide");
   PREV_BUTTON_DOM.classList.remove("hide");
   NEXT_BUTTON_DOM.classList.remove("hide");
+  TOTAL_PAGE_NUMBER_DOM.classList.remove("hide");
   MIN_BUTTON_DOM.classList.remove("hide");
   ADD_BUTTON_DOM.classList.remove("hide");
   // show all the posts
@@ -279,6 +280,7 @@ function onOpenClosePostLabelButtonClick(event) {
     PAGE_NUMBER_DOM.classList.add("hide");
     PREV_BUTTON_DOM.classList.add("hide");
     NEXT_BUTTON_DOM.classList.add("hide");
+    TOTAL_PAGE_NUMBER_DOM.classList.add("hide");
     MIN_BUTTON_DOM.classList.add("hide");
     ADD_BUTTON_DOM.classList.add("hide");
     // iter all posts DOM
