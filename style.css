@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  width: 100%;
+  background-color: #001;
+  color: #aab;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 20rem;
+  max-height: 20rem;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+}
+.featured-img {
+  max-width: none;
+}
+/* hold all post cards / tag buttons / prev next buttons */
+.all-posts-container,
+.all-top-button-tags-container,
+.page-button-containers {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  /* gap from edge of vp */
+  padding: 1rem;
+
+  /* not too wide, center it */
+  max-width: 100rem;
+  margin: 0px auto;
+
+  /* gap between cards / tag buttons*/
+  gap: 1rem;
+
+  background-color: #112;
+}
+/* one tag button */
+.tag-button,
+.page-button {
+  text-transform: capitalize;
+  text-align: center;
+  cursor: pointer;
+  color: inherit;
+  border: 1px solid #556;
+  background-color: #223;
+  padding: 0.5rem;
+}
+.tag-button:hover,
+.page-button:hover {
+  border: 1px solid #223;
+  color: #223;
+  background-color: #aab;
+}
+.tag-button.active {
+  border: 1px solid #655;
+  background-color: #322;
+  pointer-events: none;
+}
+/* one post card */
+.post-container {
+  width: 100%;
+  max-width: 20rem;
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid #556;
+  background-color: #223;
+}
+/* post read more btn */
+.toggle-checkbox-label {
+  user-select: none;
+  margin-top: auto;
+
+  text-align: center;
+  cursor: pointer;
+
+  border: 1px solid #556;
+  padding: 0.5rem;
+}
+.toggle-checkbox-label:hover {
+  border: 1px solid #223;
+  color: #223;
+  background-color: #aab;
+}
+/* holds the tag inside a post */
+.post-tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  text-transform: capitalize;
+}
+/* read more btn target */
+.toggle-checkbox {
+  display: none;
+}
+/* read more checked? big one post card state */
+.toggle-checkbox:checked + .post-container {
+  max-width: 100%;
+}
+/* read more not checked? hide post content if */
+.toggle-checkbox:not(:checked) + .post-container .post-content-container {
+  display: none;
+}
+/* to be hidden when not being read */
+.post-content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+/* card body */
+.post-body-container {
+  height: 100%;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  border-top: 1px solid #556;
+}
+/* reset the ul and ol */
+ul,
+ol {
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+/* better line height for p */
+p {
+  line-height: 1.5;
+}
+/* holds the span tag */
+.page-number,
+.total-page-number {
+  display: flex;
+  align-items: center;
+}
+/* h2 */
+.current-tag-name,
+.title {
+  text-align: center;
+  text-transform: capitalize;
+  padding: 1rem;
+}
+/* used to hide things */
+.hide {
+  display: none;
+}

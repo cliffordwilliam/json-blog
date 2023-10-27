@@ -1,0 +1,83 @@
+[
+  [
+    1,
+    "My First Post",
+    "./images/rose.webp",
+    [
+      ["h3", "Who?"],
+      [
+        "p",
+        "Clifford William, I am a mechanical engineering who changed career into software developement. I was first introduced to Matlab in my university years, and from then on I was addicted to programming. I can't focus at work as my addiction gets in the way so I decided I might as well find a profession that aligns to my addiction. I've created some Python projects in my early days of programming. I've made a human recognizer program using Python YOLO library, made a bot miner for EVE online with pyautogui library, and games with pygame. Now I am well versed in using JS as well, but recently I found out how slow both Python and JS is and also I got curious in memory allocations. So I've been studying C++ at the time of typing this as well. As of now my sole hobby is both game development and we development. I wanted to try mobile development as well, but I'll give that a try after I have spend some more time studying C++."
+      ],
+      [
+        "p",
+        "That's about my interests and profession. Now as a person I find myself noticably different from other people, I do not desire anything. I live my life simply because I think that I need to make the most of it since God gave me only one life, no one knows what happens after death. I work so I can support my family and that's it. I do not aim to be the richest man or the smartest or anything. I just live a simple life, work, eat, study, repeat. With that said I do not enjoy eating, fashion, movies, bands and just about anything else. I do enjoy music but most are from old video games. But I do not enjoy playing games anymore, after studying programming playing a game seems silly to me. You spend time manipulating data in a software that does not do much at all other than storing said data. But I do enjoy game developement, it really challenges my problem solving skills and also I find it artistic, relaxing and fun."
+      ],
+      ["h3", "Why?"],
+      [
+        "p",
+        "Why do I blog? I don't know. But I guess I can keep my dump my thoguhts and ideas here, also to log my projects as well. Here you will find various post on my interests, job and life in general. Well that's it on this short post. Hope you enjoy reading this and my other posts."
+      ],
+      ["h3", "Extra"],
+      ["img", "./images/red_hound_back_view.webp"],
+      [
+        "p",
+        "Right now at the time of typing this I am making this cool game called Sky Dogma. I will soon post a blog on it, all my games are free btw. I make them out of passion and fun. So I hope you look forward to it! Here are some key features of the game:"
+      ],
+      [
+        "ol",
+        "Top down 2D pixel game",
+        "Many ships and equipments to mix and match",
+        "Open world with side and main quests",
+        "Heavy inspiration from Armoured Core",
+        "Story is dark and has a scifi mixed with lovecraftian horror genre."
+      ],
+      [
+        "p",
+        "Btw I do not read / watch anime anymore. Although I still like how they look."
+      ]
+    ],
+    "28-10-2023",
+    ["all", "life"]
+  ],
+  [
+    2,
+    "Making this very Blog",
+    "./images/billy.webp",
+    [
+      ["h3", "How?"],
+      [
+        "p",
+        "I used html, css, js and json. That's it. At the time of making this I never tried using a server. So the only way I know how to store all my posts is in json."
+      ],
+      [
+        "p",
+        "How it works is fairly simple. There is 3 steps in the algorithm:"
+      ],
+      [
+        "ol",
+        "Parse the json to get the posts data",
+        "Populate the html with posts using said data",
+        "Once full, make the first tag be the first active tag. Then filter all the post based on that tag.",
+        "Finally iterate through each visible posts, if they go beyond posts per page limit, hide them",
+        "The rest of the features are all built on top of that main ones, this include the opening and closing of each post and also the feature to go to next and previous page."
+      ],
+      ["h3", "Why?"],
+      [
+        "p",
+        "I did not use any framework and typed the whole thing by myself from scratch. This is because, I do not know any frameworks and even if I do I find them bloated so might as well just do it myself. Personally I am also a minimalistic person, if I do not need something then I will not hesitate to dispose of it. However if work demands me to use framework then I would also have no problem in using it. I take great care for both my personal and work projects. It is just that I have the freedom to do whatever I want on my personal projects."
+      ],
+      ["h3", "Extra"],
+      [
+        "p",
+        "I may update this post further explaining further details, or even making a documentation out of this blog. Or even a step by step tutorial too, who knows. That's it for now."
+      ],
+      [
+        "p",
+        "Btw all the images on my posts are created with AI, maybe in future posts I will post some of my artworks as well and write a thing or two about it. The girl for this post featured image is called Billy. She is a character in one of my games that I am working on called Massive Recoil. A 2D pixel art game that is similar in gameplay to resident evil 4."
+      ]
+    ],
+    "28-10-2023",
+    ["all", "webdev"]
+  ]
+]
